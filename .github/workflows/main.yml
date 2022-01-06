@@ -29,6 +29,8 @@ jobs:
     # Deploying the functions to firebase
     - name:  Deploy to Firebase
       uses: w9jds/firebase-action@v2.0.0
+      run: |
+        firebase use sysohada
       with:
           args: deploy --only functions
       env:
