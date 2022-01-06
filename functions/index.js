@@ -4,6 +4,6 @@ const functions = require("firebase-functions");
 // // https://firebase.google.com/docs/functions/write-firebase-functions
 //
 exports.helloWorld = functions.https.onRequest((request, response) => {
-  functions.logger.info("Bonjour lllog!  shekinah", {structuredData: true});
+  functions.logger.info("Bonjour lllog!  lajoie", {structuredData: true});
   response.send("Hello from Firebase ok 12 !");
 });
