@@ -26,13 +26,6 @@ jobs:
       run: |
         cd functions
         npm install
-        npm install -g firebase-tools
-    # Selecting project
-    - name: Selecting project
-      env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-      run: |
-        firebase use sysohada
 
     # Deploying the functions to firebase
     - name:  Deploy to Firebase
