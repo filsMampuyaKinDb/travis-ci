@@ -32,6 +32,6 @@ jobs:
       uses: w9jds/firebase-action@v2.0.0
      
       with:
-          args: deploy --only functions --project sysohada
+          args: deploy --only functions --project github
       env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
