@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "notforusysadminonly"
-  }
+    "default": "notforusysadminonly",
+    "sysohada": "sysohada"
+  },
+  "targets": {}
 }
