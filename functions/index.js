@@ -8,3 +8,8 @@ exports.helloWorld = functions.https.onRequest((request, response) => {
   functions.logger.info("Bonjour lllog!  lajoie", {structuredData: true});
   response.send("Hello from Firebase ok 12 !");
 });
+exports.helloWorld1 = functions.https.onRequest((request, response) => {
+  console.log('voir si possible ');
+  functions.logger.info("Bonjour lllog!  lajoie", {structuredData: true});
+  response.send("Hello from Firebase ok 12 !");
+});
